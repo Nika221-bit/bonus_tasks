@@ -6,8 +6,12 @@ console.log(unique);
 
 //task 2 
 
-let ArrOfStrings = ["html","JavaScript","css"]
+let ArrOfStrings = ["html", "JavaScript", "css"];
+let longestWord = ""
 
-const Longest = ArrOfStrings.filter(filter(Word){
-     
+ArrOfStrings.forEach(word => {
+    if(word.length > longestWord.length){
+        longestWord = word;
+    }
 })
+console.log(longestWord)
