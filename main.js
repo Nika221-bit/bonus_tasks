@@ -69,6 +69,26 @@ const LowNum = arr.forEach(num => {
 
 console.log(lowest);
 
+//task 9
+
+const onlynum = ["123", "456", "789"]; 
+
+const check = onlynum.every(str => !isNaN(str));
+
+console.log(check)
+
+//task 10
+
+const numbers = [4, 7, 10, 15, 20, 25];
+
+const step1 = numbers.filter(num => num % 2 === 0);
+const step2 = numbers.map(num => num * 3);
+const step3 = numbers.some(num => num > 30);
+
+console.log(step1)
+console.log(step2)
+console.log(step3)
+
 
 
 
