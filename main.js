@@ -1,7 +1,7 @@
 //task 1
 
 let arr = [1, 2, 3, 2, 4, 1, 5, 3];
-let unique = arr.filter((num, index) => arr.indexOf(num) === index);
+let unique =arr.filter((num, index) => arr.indexOf(num) === index);
 console.log(unique);
 
 //task 2 
@@ -81,12 +81,10 @@ console.log(check)
 
 const numbers = [4, 7, 10, 15, 20, 25];
 
-const step1 = numbers.filter(num => num % 2 === 0);
-const step2 = numbers.map(num => num * 3);
-const step3 = numbers.some(num => num > 30);
+let step1 = numbers.filter(num => num % 2 === 0);
+let step2 = step1.map(num => num * 3);
+let step3 = step2.some(num => num > 30);
 
-console.log(step1)
-console.log(step2)
 console.log(step3)
 
 
